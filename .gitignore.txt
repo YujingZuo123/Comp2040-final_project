@@ -2,13 +2,32 @@
 .ipynb_checkpoints
 *.ipynb_checkpoints/
 
-# 其他常见的忽略项
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+
+# Virtual environments
 env/
 venv/
 .venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Data files (optional)
+*.csv
+*.xlsx
+*.pkl
+*.h5
+*.json
+""")
